@@ -30,12 +30,11 @@ export default {
   			}
   		},
   		colors: {
-  			'brand-light': '#1261A0',
-  			'brand-beige': '#BBAA89',
-  			'brand-odd': '#58CCED',
-			'brand-gray':'#fffdf9',
-  			'brand-base-color': '#072F5F',
-  			'brand-hue-color': '#3895D3',
+			'base-color': '#151515',
+  			'primary-color': '#f06031',
+  			'secondary-color': '#676767',
+			'white-color': '#fff',
+
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

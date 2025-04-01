@@ -1,13 +1,7 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
-import { Providers } from "@/components/Provider";
-import { Toaster } from "@/components/ui/toaster";
-import { AppProvider } from "./context/AppContext";
-import { AuthProvider } from "./context/AuthContext";
-import { HistoryProvider } from "./context/HistoryContext";
-import { UserProvider } from "./context/UserContext";
-import { SelectedContactProvider } from "./context/SelectContext";
+import Header from "@/components/layouts/Header";
 
 
 
@@ -27,8 +21,8 @@ const playWright = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "JustPay",
-  description: "Payment made with ease",
+  title: "Portfolio",
+  description: "Career Portfolio",
 };
 
 export default function RootLayout({
@@ -39,24 +33,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bowlby.variable} ${dmMono.variable} ${playWright.variable} antialiased bg-wineTexture`}
+        className={`${bowlby.variable} ${dmMono.variable} ${playWright.variable} antialiased overflow-x-hidden bg-base-color text-white-color`}
       >
-        <Providers>
-
-          <SelectedContactProvider>
-          <UserProvider>
-          <HistoryProvider>
-         <AuthProvider>
-          <AppProvider>
+          <Header/>
             {children}
-            </AppProvider>
-         </AuthProvider>
-          <Toaster/>
-          </HistoryProvider>
-          </UserProvider>
-          </SelectedContactProvider>
-          
-        </Providers>
       </body>
     </html>
   );
