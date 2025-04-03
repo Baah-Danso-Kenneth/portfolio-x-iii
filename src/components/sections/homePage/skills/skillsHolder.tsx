@@ -4,7 +4,7 @@ import { skills } from '@/lib/data'
 
 function SkillsHolder() {
   return (
-    <div className='my-10 border py-5 border-l-0 border-r-0'>
+    <div className=' border py-5 border-l-0 border-r-0'>
     <div className='flex overflow-hidden group '>
         <div className='animate-loop-scroll group-hover:paused'>
             <div className='flex'>

@@ -5,9 +5,6 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation';
 
 import clsx from 'clsx';
-import { Button } from '../ui/button';
-import { usePrivy } from '@privy-io/react-auth';
-
 import { CgMenuOreos } from "react-icons/cg";
 import { useState } from 'react';
 import { navLinks } from '@/lib/data';
@@ -16,9 +13,7 @@ import { navLinks } from '@/lib/data';
 
 function Header() {
     const pathname = usePathname();
-    const {login, authenticated,user,logout,} = usePrivy()
-    const walletAddress = user?.wallet?.address;
-    const [showToggle, setShowToggle] = useState(false)
+    const [,setShowToggle] = useState(false)
 
   function handleToggleShow(){
     setShowToggle((prev)=>!prev)
@@ -34,7 +29,7 @@ function Header() {
     <div className='flex items-center justify-between mt-1 border border-white-color border-l-0 text-white-color'>
         <div className='border p-3  border-t-0 border-b-0'>
             <Link href="/">
-                  <h1 className='font-bowlby  text-4xl capitalize hover:scale-90 hover:font-playWright'>dev<span className='font-playWright hover:font-bowlby'>kenny</span></h1>
+                  <h1 className='font-bowlby  text-primary-color text-4xl capitalize hover:scale-90 hover:font-playWright'>dev<span className='font-playWright text-white-color hover:font-bowlby hover:text-primary-color'>kenny</span></h1>
              </Link>
         </div>
 

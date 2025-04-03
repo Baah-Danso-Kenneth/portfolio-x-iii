@@ -23,7 +23,6 @@ export const skills=[
     {name:'rest-apis'},
     {name:'ai'},
     {name:'ui/ux'},
-
-
+    {name:'git/github'},
 
 ]
