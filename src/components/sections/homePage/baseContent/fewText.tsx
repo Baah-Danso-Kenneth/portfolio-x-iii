@@ -4,14 +4,14 @@ import { Button } from '@/components/ui/button'
 
 function FewText() {
   return (
-    <div className='flex flex-row border-t border-white border-b '>
+    <div className='flex flex-col lg:flex-row border-t border-white border-b '>
 
         <div className='flex-1 p-10'>
-            <h1 className='font-bowlby text-3xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit quaerat porro, fugit quisquam repellendus consequuntur nostrum architecto dolorem error.</h1>
+            <h1 className='text-[20px] font-bowlby lg:text-3xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sit quaerat porro, fugit quisquam repellendus consequuntur nostrum architecto dolorem error.</h1>
             </div>
         <div className='h-auto w-[0.5] bg-white '/>
         <div className='flex-1 p-10'>
-            <p className='font-dmMono text-[18px] font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolor consequuntur ea sint reiciendis error odit eos, 
+            <p className='font-dmMono text-sm  lg:text-[18px] font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolor consequuntur ea sint reiciendis error odit eos, 
                 assumenda aspernatur mollitia delectus suscipit unde fugit? Tempore explicabo quaerat deserunt rerum voluptates.</p>
 
          <div className='relative mt-5'>

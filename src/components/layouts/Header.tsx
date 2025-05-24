@@ -49,17 +49,15 @@ function Header() {
     </div>
     </div>
 
-    <div className='relative lg:hidden'>
+    <div className='relative lg:hidden border'>
      <div className='text-zinc-800 flex items-center overflow-x-hidden justify-between'>
+     <div className=' p-3 '>
             <Link href="/">
-                <Image
-                  src="/images/app-logo.png"
-                  alt='company-logo'
-                  width={100}
-                  height={100}
-                  />
-           </Link>
-        <CgMenuOreos onClick={handleToggleShow} className='text-3xl mr-5 cursor-pointer'/>
+                  <h1 className='font-bowlby text-[20px] text-primary-color lg:text-4xl capitalize hover:scale-90 hover:font-playWright'>dev<span className='font-playWright text-white-color hover:font-bowlby hover:text-primary-color'>kenny</span></h1>
+             </Link>
+        </div>
+
+        <CgMenuOreos onClick={handleToggleShow} className='text-3xl mr-5 text-white cursor-pointer'/>
      </div>
 
     </div>

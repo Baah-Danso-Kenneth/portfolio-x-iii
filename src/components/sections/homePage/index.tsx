@@ -2,6 +2,7 @@ import React from 'react'
 import SkillsHolder from './skills/skillsHolder'
 import MainBaseContent from './baseContent/mainBaseContent'
 import FewText from './baseContent/fewText'
+import ProjectsHolder from './baseContent/projectsHolder'
 
 function HomePage() {
   return (
@@ -9,6 +10,7 @@ function HomePage() {
        <MainBaseContent/>
        <FewText/>
        <SkillsHolder/>
+       <ProjectsHolder/>
     </div>
   )
 }
