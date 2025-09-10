@@ -14,8 +14,8 @@ function FewText() {
             <p className='font-dmMono text-sm  lg:text-[18px] font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia dolor consequuntur ea sint reiciendis error odit eos, 
                 assumenda aspernatur mollitia delectus suscipit unde fugit? Tempore explicabo quaerat deserunt rerum voluptates.</p>
 
-         <div className='relative mt-5'>
-          <div className='absolute top-1 -right-13 -z-10 w-[20%] h-[100%]  rounded-[20] bg-[#fff]'/>
+        <div className='relative mt-5'>
+          <div className='absolute top-1 w-[45%] -right-13 -z-10 lg:w-[18%] h-[100%] rounded-[20] bg-[#fff]'/>
           <Button className='bg-primary-color text-white p-5 font-dmMono rounded-[20]'>lets vibe</Button>
         </div>
 
