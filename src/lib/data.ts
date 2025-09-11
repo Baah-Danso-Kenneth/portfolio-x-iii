@@ -1,11 +1,24 @@
 import { ArrowDownRight } from "lucide-react"  
 
-export const navLinks=[
-    {name:'github', href:'/'},
-    {name:'linkedIn', href:'/for_artist'},
-    {name:'x', href:'/for_artist'},
-    {name:'portfolio', href:'/for_artist'},
-    {name:"lets'talk", href:'/for_buyers'}
+export const navLinks = [
+  { name: 'github', href: 'https://github.com/Baah-Danso-Kenneth', isModal: false },
+  { name: 'linkedIn', href: 'https://www.linkedin.com/in/kwadwo-danso-sudo-reboot/', isModal: false },
+  { name: 'x', href: 'https://twitter.com/drf_react_next', isModal: false },
+  { name: 'portfolio', href: '#', isModal: true },
+  { name: "lets'talk", href: '#', isModal: false }
+]
+
+
+export const various_section = [
+  { name: 'projects', href: 'projects'},
+  { name: 'kind words', href: 'recommendation' },
+  { name: 'description', href: 'description'},
+  { name: 'insight', href: 'insight'},
+  { name: 'ready to work', href: 'work'},
+  { name: 'skills', href: 'skills'},
+  { name: 'portfolio', href: '#'},
+  { name: "lets'talk", href: 'description'}
+
 ]
 
 export const skills=[
@@ -15,6 +28,7 @@ export const skills=[
     {name:'Tailwind'},
     {name:'Django'},
     {name:'JavaScript'},
+    {name:'Web-designer'},
     {name:'Threejs'},
     {name:'Frontend'},
     {name:'Web3'},
@@ -48,47 +62,51 @@ export const projectData = [
 ]
 
 
-export const recommendationsData=[
+export const recommendationsData = [
   {
-    "name": "Sarah Johnson",
-    "testimony": "Working with this team was exceptional. They delivered exactly what we needed, on time and within budget. The attention to detail was remarkable."
+    name: "Abdul Wahab",
+    role: "Product Manager at TechNova",
+    testimony:
+      "Kenneth made things really easy for us. He understood what we wanted, gave helpful ideas, and delivered on time without any stress.",
   },
   {
-    "name": "Michael Chen",
-    "testimony": "The level of professionalism and expertise exceeded my expectations. Communication was clear throughout the project, and the final result was outstanding."
+    name: "Suzzan Aku",
+    role: "UI/UX Designer",
+    testimony:
+      "Working with Kenneth was smooth from start to finish. He communicates well and always makes sure the small details are done right.",
   },
   {
-    "name": "Emily Rodriguez",
-    "testimony": "Incredible work! They transformed our vision into reality with such creativity and precision. I couldn't be happier with the outcome."
+    name: "Ofori Isaac",
+    role: "Frontend Developer",
+    testimony:
+      "Kenneth has a good eye for design and detail. He quickly turned our ideas into something real and working. Really enjoyed collaborating with him.",
   },
   {
-    "name": "David Thompson",
-    "testimony": "From start to finish, the process was smooth and efficient. The team's technical skills and problem-solving abilities are truly impressive."
+    name: "David Thompson",
+    role: "Backend Developer",
+    testimony:
+      "He’s reliable and quick to solve problems. You always know things are moving forward when Kenneth is handling it.",
   },
   {
-    "name": "Lisa Park",
-    "testimony": "Outstanding service and quality. They went above and beyond to ensure every requirement was met. Highly recommended for any project."
+    name: "Lisa Acheampong",
+    role: "Frontend Developer",
+    testimony:
+      "Kenneth goes the extra mile to make sure the work is not just done, but done well. Very easy to work with.",
   },
   {
-    "name": "James Wilson",
-    "testimony": "Professional, reliable, and talented. The collaboration was seamless, and they delivered results that exceeded our initial expectations completely."
-  }
+    name: "James Wilson",
+    role: "Backend Developer",
+    testimony:
+      "Professional and down-to-earth. Kenneth made collaboration simple, and the final results were even better than we thought.",
+  },
 ]
+
+
 
 export const sociaLinks = [
-   { name: 'discord', href: '#' },
-   { name: 'twitter', href: '#' },
-   { name: 'linkedIn', href: '#' },
-   { name: 'Instagram', href: '#' }
+   { name: 'github', href: 'https://github.com/Baah-Danso-Kenneth' },
+   { name: 'twitter', href: 'https://twitter.com/drf_react_next' },
+   { name: 'linkedIn', href: 'https://www.linkedin.com/in/kwadwo-danso-sudo-reboot/' },
+   { name: 'Instagram', href: 'https://www.instagram.com/akata_developer/' }
 ]
 
-export const mainLinks=[
-  {name:'home', href:"#"},
-  {name:'market', href:"/marketplace"},
-  {name:'collections', href:"#"},
-  {name:'createNft', href:"/sellNFT"},
-  {name:'about', href:"#"},
-  {name:'about', href:"#"},
-  {name:'about', href:"#"},
-  {name:'about', href:"#"},
-]

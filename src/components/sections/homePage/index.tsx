@@ -10,13 +10,33 @@ import LetCollaborate from './baseContent/LetCollaborate'
 function HomePage() {
   return (
     <div>
+
+      <section id="description">
        <MainBaseContent/>
+      </section>
+
+       <section id="insight">
        <FewText/>
+       </section>
+
+      <section id='skills'>
        <SkillsHolder/>
+      </section>
+
+      <section id="projects">
        <ProjectsHolder/>
+      </section>
+
+      <section id="recommendation">
        <Recommendation/>
+      </section>
+
         <SkillsHolder className='border-l-0 b border-r-0'/>
+
+        <section id="work">
         <LetCollaborate/>
+        </section>
+        
         <Footer/>
     </div>
   )

@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import React from 'react';
 
-function RecommendCard({ name, testimony}: { name: string; testimony: string}) {
+function RecommendCard({ name, testimony,role}: { name: string; testimony: string, role:string}) {
   return (
     <div className="w-[350px] h-auto relative flex flex-col">
   
@@ -12,7 +12,7 @@ function RecommendCard({ name, testimony}: { name: string; testimony: string}) {
         
      
         <div className="w-0 h-0 absolute -bottom-1 text-nowrap text-primary-color">
-            <h1>product designer</h1>
+            <h1 className='font-dmMono uppercase text-sm  lg:text-lg'>{role}</h1>
         </div>
 
       </div>

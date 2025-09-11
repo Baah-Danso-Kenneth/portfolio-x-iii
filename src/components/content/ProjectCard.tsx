@@ -27,7 +27,7 @@ function ProjectCard({ href, image, title, description }: ProjectCardProps) {
       {/* Content Container */}
       <div className='p-4 sm:p-6'>
         {title && (
-          <h3 className='text-lg sm:text-xl font-playWright font-semibold text-primary-color mb-2 line-clamp-2'>
+          <h3 className='text-lg sm:text-xl font-dmMono uppercase font-semibold text-primary-color mb-2 line-clamp-2'>
             {title}
           </h3>
         )}
@@ -43,7 +43,7 @@ function ProjectCard({ href, image, title, description }: ProjectCardProps) {
           <div className='absolute top-1 w-full h-[100%] rounded-[20] bg-[#fff]'/>
           <Link 
             href={href}
-            className='relative inline-flex  w-full text-center  justify-center items-center gap-5 bg-primary-color text-white font-medium text-base sm:text-lg px-6 py-2 rounded-full transition-all duration-200 group shadow-lg hover:shadow-xl'
+            className='relative inline-flex  w-full text-center font-dmMono  justify-center items-center gap-5 bg-primary-color text-white font-medium text-base sm:text-lg px-6 py-2 rounded-full transition-all duration-200 group shadow-lg hover:shadow-xl'
           >
             Read More
             <ArrowUpRight className='w-5 h-5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200' />
